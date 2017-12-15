@@ -3,6 +3,7 @@ module.exports = {
   output: {
     filename: 'bundle.js'
   },
+<<<<<<< HEAD
   // module: {
   //   loaders:[
   //     {
@@ -12,6 +13,19 @@ module.exports = {
   //     },
   //   ]
   // }
+=======
+// 1
+//   module: {
+//     loaders:[
+//       {
+//         test: /\.js[x]?$/,
+//         exclude: /node_modules/,
+//         loader: 'babel-loader?presets[]=es2015&presets[]=react',
+//       },
+//     ]
+//   },
+// 2
+>>>>>>> 8abf73b14638b51f3eee630895065a3e02c67081
   module: {
   loaders: [
     {
@@ -23,5 +37,9 @@ module.exports = {
       }
     }
   ]
+<<<<<<< HEAD
 }
+=======
+}  
+>>>>>>> 8abf73b14638b51f3eee630895065a3e02c67081
 };
